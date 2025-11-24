@@ -88,13 +88,3 @@ for(valeur = 0; valeur <= 20; valeur+=2) {
         console.log(valeur)
     }
 }
-
-// Exercice 10
-
-let nombre = 20;
-let nombreAleatoire = getRandomInt(1,100);
-
-while(nombre <= 100) {
-    console.log("le nombre est", nombreAleatoire)
-    break
-}
