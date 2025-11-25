@@ -142,3 +142,17 @@ for(let i = 0; i < table.length; i++) {
 }
 
 console.log(`Le plus grand nombre est ${max}`)
+
+// Bonus
+const table1 = [Math.floor(Math.random())];
+let max1 = table1[0];
+
+for(let i = 0; i < 50; i++) {
+    table1.push(Math.floor(Math.random() * 500 + 1));
+    if(table1[i] > max1) {
+        max1 = table1[i];
+    }
+}
+
+console.log(table1);
+console.log(`Le plus grand nombre est ${max1}`);
