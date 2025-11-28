@@ -203,5 +203,3 @@ for(const sousTableau of grilles) {
 }
 
 console.log(sommes);
-
-
